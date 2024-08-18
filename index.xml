@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+   <!-- 스킨 관련 정보 -->
+  <information>
+  
+     <!-- 스킨 이름 -->
+    <name>기본 스킨</name>
+    
+     <!-- 스킨 버전 -->
+    <version>1.1</version>
+    
+     <!-- 스킨 설명-->
+    <description>
+      <![CDATA[웹표준을 준수한 XHTML 기반의 Tistory 기본 스킨입니다.]]>
+    </description>
+    
+     <!-- 라이센스 -->
+    <license>
+      <![CDATA[자유롭게 수정이 가능하며, 저작권 표시하에 재배포 가능합니다.]]>
+    </license>
+  </information>
+  
+   <!-- 제작자 정보 -->
+  <author>
+  
+     <!-- 제작자 이름 -->
+    <name>tistory</name>
+    
+     <!-- 제작자 홈페이지 -->
+    <homepage>http://notice.tistory.com</homepage>
+    
+     <!-- 제작자 이메일 -->
+    <email>tistoryblog@daum.net</email>
+  </author>
+  
+   <!-- 스킨 기본 설정 -->
+  <default>
+     <!-- 사이드바 최근글 표시 갯수 -->
+    <recentEntries>5</recentEntries>
+    
+     <!-- 사이드바 최근 댓글 표시 갯수 -->
+    <recentComments>5</recentComments>
+    
+     <!-- 사이드바 최근 트랙백 표시 갯수 -->
+    <recentTrackbacks>5</recentTrackbacks>
+    
+     <!-- 한 페이지에 표시될 방명록 갯수 -->
+    <itemsOnGuestbook>10</itemsOnGuestbook>
+    
+     <!-- 사이드바 태그 갯수 -->
+    <tagsInCloud>30</tagsInCloud>
+    
+     <!-- 태그 표현 방식 1: 인기도, 2: 이름, 3: 랜덤 -->
+    <sortInCloud>3</sortInCloud>
+    
+     <!-- 댓글 영역 0: 감추기, 1: 펼치기 -->
+    <expandComment>0</expandComment>
+    
+     <!-- 트랙백 영역 0: 감추기, 1: 펼치기 -->
+    <expandTrackback>0</expandTrackback>
+    
+     <!-- 최근 공지 글자 수 -->
+    <lengthOfRecentNotice>25</lengthOfRecentNotice>
+    
+     <!-- 최근 글 글자 수 -->
+    <lengthOfRecentEntry>27</lengthOfRecentEntry>
+    
+     <!-- 최근 댓글 글자 수 -->
+    <lengthOfRecentComment>30</lengthOfRecentComment>
+    
+     <!-- 최근 트랙백 글자 수 -->
+    <lengthOfRecentTrackback>30</lengthOfRecentTrackback>
+    
+     <!-- 링크 글자 수 -->
+    <lengthOfLink>30</lengthOfLink>
+    
+     <!-- 카테고리 클릭 리스트 0: 숨김, 1: 보임 -->
+    <showListOnCategory>1</showListOnCategory>
+    
+     <!-- 글보관함 클릭 리스트 0: 숨김, 1: 보임 -->
+    <showListOnArchive>1</showListOnArchive>
+    
+     <!-- 댓글 표현 방법 -->
+    <commentMessage>
+      <none>댓글이 없습니다.</none>
+      <single>댓글 &lt;span class="cnt"&gt;하나&lt;/span&gt; 달렸습니다.</single>
+    </commentMessage>
+    
+     <!-- 트랙백 표현 방법 -->
+    <trackbackMessage>
+      <none>받은 트랙백이 없고</none>
+      <single>트랙백이 &lt;span class="cnt"&gt;하나&lt;/span&gt;이고</single>
+    </trackbackMessage>
+    
+     <!-- 카테고리 -->
+    <tree>
+    
+       <!-- 글자색 -->
+      <color>000000</color>
+      
+       <!-- 배경색 -->
+      <bgColor>ffffff</bgColor>
+      
+       <!-- 선택시 글자색 -->
+      <activeColor>000000</activeColor>
+       
+       <!-- 선택시 배경색 -->
+      <activeBgColor>eeeeee</activeBgColor>
+      
+       <!-- 카테고리 글자 수-->
+      <labelLength>27</labelLength>
+      
+       <!-- 카테고리 글 수 0: 숨김, 1: 보임 -->
+      <showValue>1</showValue>
+    </tree>
+    
+     <!-- 컨텐츠 영역 가로 사이즈-->
+    <contentWidth>500</contentWidth>
+  </default>
+  
+   <!-- 커버 사용을 위한 영역 -->
+  <cover>
+    <item>
+    
+      <!-- 커버 이름 (중복 불가) -->
+     <name>list</name>
+     
+      <!-- 표시될 이름 -->
+     <label><![CDATA[리스트형]]></label>
+      
+      <!-- 설명 -->
+     <description><![CDATA[리스트형식]]></description>
+    </item>
+  </cover>
+</skin>
+출처: https://shalchoong.tistory.com/58 [여긔의 IT Story:티스토리]
